@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  header img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #009432;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th {
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: left;
+  }
